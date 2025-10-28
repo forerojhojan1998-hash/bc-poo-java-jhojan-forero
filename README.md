@@ -4,7 +4,7 @@
 
 - **Estudiante:** [Jhojan Forero Infante]
 - **Ficha:** [3228970 ]
-- **Dominio Asignado:** [Tu Dominio]
+- **Dominio Asignado:** [SASASASASAS]
 - **Instructor:** [Nombre del Instructor]
 
 ## 📁 Estructura del Repositorio

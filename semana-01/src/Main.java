@@ -1,15 +1,18 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Crear un objeto Libro
+        Libro libro1 = new Libro("Cien Años de Soledad", "Gabriel García Márquez", 45000, 12, true);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Mostrar información del libro
+        libro1.mostrarInfo();
+
+        // Calcular un descuento del 10%
+        double nuevoPrecio = libro1.calcularDescuento(10);
+        System.out.println("Precio con 10% de descuento: $" + nuevoPrecio);
+
+        // Usar getter y setter
+        System.out.println("Título del libro: " + libro1.getTitulo());
+        libro1.setPrecio(40000);
+        System.out.println("Nuevo precio actualizado: $" + 40000);
     }
 }
