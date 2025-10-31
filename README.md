@@ -4,8 +4,8 @@
 
 - **Estudiante:** [Jhojan Forero Infante]
 - **Ficha:** [3228970 ]
-- **Dominio Asignado:** [AMOR]
-- **Instructor:** [Nombre del Instructor]
+- **Dominio Asignado:** ["Librería "Mundo del Libro"]
+- **Instructor:** [Erick Granados Torres]
 
 ## 📁 Estructura del Repositorio
 
